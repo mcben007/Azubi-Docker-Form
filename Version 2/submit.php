@@ -3,8 +3,8 @@ $username = $_POST['username'];
 $password = $_POST['password'];
 
 if ($username == 'admin' && $password == 'password') {
-    echo "Login successful!";
+    echo "Welcome, This is admin!";
 } else {
-    echo "Invalid username or password.";
+    echo "Invalid username or password";
 }
 ?>
